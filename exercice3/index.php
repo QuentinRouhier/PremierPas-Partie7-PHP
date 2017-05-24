@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>exo 3</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <ul id="menu_horizontal">
+            <li><a href="../exercice2/index.php">Exercice 2</a></li>
+            <li><a href="../exercice4/index.php">Exercice 4</a></li>
+            <li><a href="../index.php">Index</a></li>
+        </ul>
+        <!-- utilisation de la method get qui fait envoi vers user.php grace a l'action -->
+        <form action="user.php" method="get">
+            <div id="formulaire">
+                <li><label for="nom">Nom : </label><input type="text" name="nom" placeholder="Nom"></li>
+                <li><label for="prénom">Prénom : </label><input type="text" name="prenom" placeholder="Prénom"></li>
+                <li><input type="submit" value="Valider" /></li>
+            </div>
+        </form>
+    </body>
+</html>
